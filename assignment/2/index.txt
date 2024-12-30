@@ -1,0 +1,94 @@
+JavaScript operators are categorized into several groups based on their functionality:
+
+1. Arithmetic Operators: Perform mathematical operations.
+
+    1. + (addition)
+    2. - (subtraction)
+    3. * (multiplication)
+    4. / (division)
+    5. % (modulus)
+    6. ++ (increment)
+    7. -- (decrement)
+
+Example: let sum = 2 + 3;
+
+2. Comparison Operators: Compare values.
+
+    1. == (equal)
+    2. != (not equal)
+    3. === (strict equal)
+    4. !== (strict not equal)
+    5. > (greater than)
+    6. < (less than)
+    7. >= (greater than or equal)
+    8. <= (less than or equal)
+
+Example: if (age > 18) {... }
+
+3. Logical Operators: Perform logical operations.
+
+    1. && (and)
+    2. || (or)
+    3. ! (not)
+
+Example: let isValid = name !== "" && email !== "";
+
+4. Assignment Operators: Assign values.
+
+    1. = (assignment)
+    2. += (addition assignment)
+    3. -= (subtraction assignment)
+    4. *= (multiplication assignment)
+    5. /= (division assignment)
+    6. %= (modulus assignment)
+
+Example: count += 1;
+
+5. Bitwise Operators: Manipulate binary numbers.
+
+    1. & (bitwise and)
+    2. | (bitwise or)
+    3. ^ (bitwise xor)
+    4. ~ (bitwise not)
+    5. << (left shift)
+    6. >> (right shift)
+    7. >>> (unsigned right shift)
+
+Example: let masked = 5 & 3;
+
+6. Unary Operators: Perform single operand operations.
+
+    1. + (unary plus)
+    2. - (unary minus)
+    3. ! (logical not)
+    4. ~ (bitwise not)
+    5. typeof (type of)
+    6. void (void)
+
+Example: let negated = -x;
+
+1. Ternary Operator: Conditional assignment.
+
+    1. ?: (ternary)
+
+Example: let result = condition ? value1 : value2;
+
+2. Delete Operator: Deletes object properties.
+
+    1. delete
+
+Example: delete obj.property;
+
+3. in Operator: Checks property existence.
+
+    1. in
+
+Example: if ('property' in obj) {... }
+
+4. instanceof Operator: Checks object inheritance.
+
+    1. instanceof
+
+Example: if (obj instanceof Object) {... }
+
+These categories help understand operator functionality, enabling effective JavaScript coding.

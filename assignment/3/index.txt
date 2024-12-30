@@ -1,0 +1,64 @@
+In JavaScript, operator precedence and associativity determine the order of operations when multiple operators are used in an expression.
+
+Precedence
+
+Precedence defines the order in which operators are evaluated. Higher precedence operators are evaluated first.
+
+Table: Operator Precedence (High to Low)
+
+| Precedence | Operators |
+| --- | --- |
+| 1 | () (grouping) |
+| 2 | ++, -- (unary) |
+| 3 | !, ~, typeof, void (unary) |
+| 4 | *, /, % (multiplicative) |
+| 5 | +, - (additive) |
+| 6 | <<, >>, >>> (bitwise shift) |
+| 7 | <, >, <=, >= (comparison) |
+| 8 | ==, !=, ===, !== (equality) |
+| 9 | & (bitwise AND) |
+| 10 | ^ (bitwise XOR) |
+| 11 | | (bitwise OR) |
+| 12 | && (logical AND) |
+| 13 | || (logical OR) |
+| 14 | ?: (ternary) |
+| 15 | =, +=, -=, *=, /=, %= (assignment) |
+| 16 | , (comma) |
+
+Associativity
+
+Associativity defines the order in which operators with the same precedence are evaluated.
+
+Table: Operator Associativity
+
+| Associativity | Operators |
+| --- | --- |
+| Left-to-Right | Most operators (e.g., +, -, *, /) |
+| Right-to-Left | Assignment operators (e.g., =, +=, -=) |
+
+Importance
+
+Understanding precedence and associativity:
+
+1. Avoids ambiguity: Clarifies operator order, ensuring intended behavior.
+2. Prevents errors: Incorrect precedence can lead to unexpected results.
+3. Improves readability: Explicit grouping (e.g., ()) enhances code clarity.
+4. Simplifies debugging: Easier identification of issues.
+5. Enhances code quality: Better understanding leads to more maintainable code.
+
+Best Practices
+
+1. Use parentheses for clarity.
+2. Follow operator precedence rules.
+3. Avoid complex expressions; break into simpler ones.
+4. Document complex logic.
+
+Example:
+
+// Without explicit grouping
+let result = 2 + 3 * 4;
+
+// With explicit grouping
+let result = 2 + (3 * 4);
+
+By grasping precedence and associativity, developers write more effective, readable, and maintainable JavaScript code.

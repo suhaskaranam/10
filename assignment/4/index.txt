@@ -1,0 +1,68 @@
+JavaScript Operator Precedence and Associativity
+
+Precedence
+
+Determines the order of operations when multiple operators are used.
+
+High to Low Precedence
+
+1. Grouping (())
+2. Unary (++, --, !, ~, typeof, void)
+3. Multiplicative (*, /, %)
+4. Additive (+, -)
+5. Bitwise Shift (<<, >>, >>>)
+6. Comparison (<, >, <=, >=)
+7. Equality (==, !=, ===, !==)
+8. Bitwise AND (&)
+9. Bitwise XOR (^)
+10. Bitwise OR (|)
+11. Logical AND (&&)
+12. Logical OR (||)
+13. Ternary (?:)
+14. Assignment (=, +=, -=, *=, /=, %=)
+15. Comma (,)
+
+Associativity
+
+Defines order for operators with same precedence.
+
+Left-to-Right
+
+- Most operators (e.g., +, -, *, /)
+Right-to-Left
+
+- Assignment operators (e.g., =, +=, -=)
+
+Importance
+
+1. Avoids Ambiguity: Clarifies operator order.
+2. Prevents Errors: Incorrect precedence leads to unexpected results.
+3. Improves Readability: Explicit grouping enhances clarity.
+4. Simplifies Debugging: Easier issue identification.
+5. Enhances Code Quality: Better understanding leads to maintainable code.
+
+Best Practices
+
+1. Use parentheses for clarity.
+2. Follow precedence rules.
+3. Avoid complex expressions; break into simpler ones.
+4. Document complex logic.
+
+Example:
+
+// Without explicit grouping
+let result = 2 + 3 * 4;
+
+// With explicit grouping
+let result = 2 + (3 * 4);
+
+
+Understanding precedence and associativity ensures:
+
+1. Accurate calculations
+2. Correct logical operations
+3. Clear code structure
+4. Reduced errors
+5. Improved maintainability
+
+Mastering these concepts enhances JavaScript development efficiency and code quality.
